@@ -2,6 +2,7 @@
 
 * `sort | uniq -c | sort -nr` count ocurrence of each line and sort them
 * `perl -pi -w -e 's/foo/bar/g' **/*` replace foo to bar recursively
+* `ps euxf` detail process(tree) info
 
 # tutorials
 
