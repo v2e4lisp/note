@@ -7,7 +7,7 @@
 run a shell script on remote host without copying. [SO: how to use ssh to run shell script on a remote machine?](http://stackoverflow.com/questions/305035/how-to-use-ssh-to-run-shell-script-on-a-remote-machine)
 
 ```sh
-ssh user@host 'bash -s' <<<-SCRIPT
+ssh user@host 'bash -s' <<<-`SCRIPT`
 # shell script
 SCRIPT
 ```
