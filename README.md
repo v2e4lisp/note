@@ -3,6 +3,7 @@
 * `sort | uniq -c | sort -nr` count ocurrence of each line and sort them
 * `perl -pi -w -e 's/foo/bar/g' **/*` replace foo to bar recursively
 * `ps euxf` detail process(tree) info
+* `git log -p [filename]` show file's change history
 
 run a shell script on remote host without copying. [SO: how to use ssh to run shell script on a remote machine?](http://stackoverflow.com/questions/305035/how-to-use-ssh-to-run-shell-script-on-a-remote-machine)
 
