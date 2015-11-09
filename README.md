@@ -4,6 +4,7 @@
 * `perl -pi -w -e 's/foo/bar/g' **/*` replace foo to bar recursively
 * `ps euxf` detail process(tree) info
 * `git log -p [filename]` show file's change history
+* lsof -n -i4TCP:$PORT | grep LISTEN [Who is listening on a given TCP port on Mac OS X?]http://stackoverflow.com/questions/4421633/who-is-listening-on-a-given-tcp-port-on-mac-os-x
 
 run a shell script on remote host without copying. [SO: how to use ssh to run shell script on a remote machine?](http://stackoverflow.com/questions/305035/how-to-use-ssh-to-run-shell-script-on-a-remote-machine)
 
